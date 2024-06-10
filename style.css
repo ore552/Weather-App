@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: cursive;
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: slide 20s infinite;
+}
+
+@keyframes slide{
+    0% {
+        background-image:url("images/sky-clouds-cinematic-clouds-wallpaper-5.jpg");
+    }
+
+    25% {
+        background-image: url("images/sky-clouds-cinematic-clouds-wallpaper-5.jpg");
+    }
+
+    25.001% {
+        background-image: url("images/cloud-blue-sky\ \(1\).jpg");
+    }
+
+    50% {
+        background-image: url("images/cloud-blue-sky\ \(1\).jpg");
+    }
+
+    50.001% {
+        background-image: url("images/Rainbow_Skyline-Trail-1920x1080.jpg");
+    }
+
+    75% {
+        background-image: url("images/Rainbow_Skyline-Trail-1920x1080.jpg");
+    }
+
+    75.001% {
+        background-image: url("images/wispy-clouds-in-a-blue-sky.jpg");
+    }
+
+    100% {
+        background-image: url("images/wispy-clouds-in-a-blue-sky.jpg");
+    }
+  
+}
+
+.card{
+    background-color: #000000d0;
+    color: #fff;
+    padding: 4em;
+    border-radius: 30px;
+    width: 90%;
+    max-width: 600px;
+    margin: 1em;
+    /* height: 350px; */
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchicon{
+    color: white;
+    width: 30px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+
+}
+
+.searchbar{
+    padding: 2%;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #7c7c7c2b;
+    color: #fff;
+}
+
+.city{
+    margin-top: 12%;
+}
+
+p{
+    font-size: 30px;
+}
+
+span{
+    background-color: rebeccapurple;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    border-style: dashed groove dotted ridge;
+}
